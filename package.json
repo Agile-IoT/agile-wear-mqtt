@@ -1,0 +1,20 @@
+{
+  "name": "ambiobroker",
+  "version": "1.0.0",
+  "description": "Broker console app for Ambiotex Tech Unit developed with NodeJS, Noble and MQTT",
+  "main": "server.js",
+  "scripts": {
+    "server": "node ./index.js",
+    "publisher": "node ./publisher.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefanos Trialonis <stefanos@wearhealth.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "int64-buffer": "^0.1.10",
+    "mosca": "^2.8.3",
+    "mqtt": "^2.18.3",
+    "noble": "^1.9.1"
+  }
+}
